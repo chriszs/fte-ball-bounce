@@ -1,0 +1,17 @@
+{
+  "name": "fte-ball-bounce",
+  "version": "1.0.0",
+  "description": "Bounce the balls in FiveThirtyEight's presidential forecast",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.27.1",
+    "rollup-plugin-chrome-extension": "^3.3.0"
+  }
+}

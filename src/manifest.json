@@ -1,0 +1,22 @@
+{
+  "name": "Election forecast ball pit",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://projects.fivethirtyeight.com/2020-election-forecast/"
+      ],
+      "js": [
+        "index.js"
+      ],
+      "css": [
+        "main.css"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

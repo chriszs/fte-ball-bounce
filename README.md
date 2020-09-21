@@ -11,7 +11,7 @@ To develop, run:
 git clone https://github.com/chriszs/fte-ball-bounce.git
 cd fte-ball-bounce
 npm i
-npm watch
+npm run watch
 ```
 
 You can then load the extension from Chrome by clicking "Load Unpacked" from the extensions screen and selecting the dist folder.

@@ -1,4 +1,4 @@
-# fte-ball-bounce
+# Election forecast ball pit
  
 Play with the balls in FiveThirtyEight's presidential forecast! Bounce them! Bump them! Relieve your anxiety. Now [installable](https://chrome.google.com/webstore/detail/election-forecast-ball-pi/bcmcdcofkamibaocdbjlbnjnkkkkldba?hl=en&authuser=0) on the Chrome Store.
 

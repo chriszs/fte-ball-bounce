@@ -4,7 +4,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://projects.fivethirtyeight.com/2020-election-forecast/"
+        "https://projects.fivethirtyeight.com/2022-election-forecast/house/"
       ],
       "js": [
         "index.js"

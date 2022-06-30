@@ -4,7 +4,7 @@ import BouncingBalls from "./balls/bouncing-balls";
 const tryInterval = 500;
 
 function init() {
-  const toplineChart = document.getElementById("topline-chart");
+  const toplineChart = document.getElementById("housetopline-chart");
   const circles = [...toplineChart.querySelectorAll(".svg circle")];
 
   if (
@@ -27,7 +27,7 @@ function init() {
   toplineChart.appendChild(container);
   container.appendChild(canvas);
 
-  BouncingBalls.init("ballpit", "topline-chart", true, true);
+  BouncingBalls.init("ballpit", "housetopline-chart", true, true);
 
   circles.forEach((circle) => {
     const x = circle.getAttribute("cx");
